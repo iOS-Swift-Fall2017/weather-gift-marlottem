@@ -10,6 +10,7 @@
 		7B3EAEE80A3B02AB98975FFE /* Pods_WeatherGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD2B98624B63346C0B3480 /* Pods_WeatherGift.framework */; };
 		B740F9101F9FADD300653BAA /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740F90F1F9FADD300653BAA /* WeatherLocation.swift */; };
 		B740F9121F9FC85100653BAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740F9111F9FC85100653BAA /* Constants.swift */; };
+		B7658ECF1FA8F2020083EE87 /* DayWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7658ECE1FA8F2020083EE87 /* DayWeatherCell.swift */; };
 		B7F053F11F967E8B002B719B /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F053F01F967E8B002B719B /* PageVC.swift */; };
 		B7FAD2741F967072002A2363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FAD2731F967072002A2363 /* AppDelegate.swift */; };
 		B7FAD2791F967072002A2363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FAD2771F967072002A2363 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		B740F90F1F9FADD300653BAA /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		B740F9111F9FC85100653BAA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7658ECE1FA8F2020083EE87 /* DayWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherCell.swift; sourceTree = "<group>"; };
 		B7F053F01F967E8B002B719B /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 		B7FAD2701F967072002A2363 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FAD2731F967072002A2363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B740F90F1F9FADD300653BAA /* WeatherLocation.swift */,
 				B7F053F01F967E8B002B719B /* PageVC.swift */,
 				B7FAD2851F967149002A2363 /* DetailVC.swift */,
+				B7658ECE1FA8F2020083EE87 /* DayWeatherCell.swift */,
 				B7FAD2871F9676DB002A2363 /* ListVC.swift */,
 				B740F9111F9FC85100653BAA /* Constants.swift */,
 				B7FAD2771F967072002A2363 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7658ECF1FA8F2020083EE87 /* DayWeatherCell.swift in Sources */,
 				B740F9101F9FADD300653BAA /* WeatherLocation.swift in Sources */,
 				B7FAD2881F9676DB002A2363 /* ListVC.swift in Sources */,
 				B7F053F11F967E8B002B719B /* PageVC.swift in Sources */,
